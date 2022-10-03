@@ -4,9 +4,9 @@
 Бот написан на Python 3.10
 ### Использумые библиотеки
 
-1. pyTelegramBotAPI==4.6.0
-2. python-dotenv==0.20.0
-3. autocorrect==2.6.1
+1. pyTelegramBotAPI ver. 4.6.0
+2. python-dotenv ver. 0.20.0
+3. autocorrect ver. 2.6.1
 
 ### Возможности бота
 
@@ -20,4 +20,7 @@
 2. Установить библиотеки из файла requirements.txt
 3. Создать телеграм бота написав в Telegram @botfather
 4. Сохранить токен бота в файл .env(Пример файла можно посмотреть в файле .env.template)
+5. Из установленного пакета LibreOffice(или другого), из папки с расположением программы по пути «…\LibreOffice\share\extensions\dict-ru»
+скопировать файлы "ru_RU.aff" и "ru_RU.dic" и переместить данные файлы в папку виртуального окружения по пути 
+"..\Виртуальное окружение\Lib\site-packages\enchant\data\mingw64\share\enchant\hunspell"
 
